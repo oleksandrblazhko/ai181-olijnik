@@ -1,0 +1,39 @@
+@startuml
+
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Smartphone>>" as phone {
+    node "<<Operating System Android>>" {
+        component [*.apk]
+    }
+}
+
+interface Touchscreen
+
+Touchscreen -- phone
+
+node "<<Server 1>>" as serv1 {
+  node "<<Operating System Linux>>" as l1 {
+      node "<<Application Nginx Gunicorn Python Django Server>>" {
+        component [*.py]
+    }
+  }
+}
+
+phone -- serv1
+
+node "<<Server 2>>" as serv2 {
+  node "<<Operating System Linux>>" as l2 {
+      node "<<Database Server PostgreSQL>>" {
+        database "Relation Database"
+    }
+  }
+}
+
+serv1 -- serv2
+
+@enduml
