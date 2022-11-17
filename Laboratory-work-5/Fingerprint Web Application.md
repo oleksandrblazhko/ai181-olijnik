@@ -1,4 +1,4 @@
-# Fingerprint Web Application
+# Веб-програма відбитків пальців
 
 Було об’єднано в: Fingerprint Web Application Framework.
 
