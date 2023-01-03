@@ -1,4 +1,5 @@
 1. Створення функції
+
    ![WindowsTerminal_gy4kG6gmtl](https://user-images.githubusercontent.com/55840190/210323878-daeea8ce-00be-4f7a-b5f1-cb2141889137.png)
 2. Результат виконнаня запиту з порушенням доступності
 
